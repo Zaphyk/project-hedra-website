@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-
+<link rel="shortcut icon" href="favicon.ico">
     {% if site.google_analytics %}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
       <script>
@@ -20,21 +20,17 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-
     <header class="page-header" role="banner">
       <h1 class="project-name">Project Hedra</h1>
-      <h2 class="project-tagline"></h2>
-      <iframe src="https://store.steampowered.com/widget/1009960/" frameborder="0" width="646" height="190"></iframe>
+      <div class="steam-banner">
+        <iframe src="https://store.steampowered.com/widget/1009960/" frameborder="0" width="646" height="190"></iframe>
+      </div>
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
-
+            <iframe src="https://discordapp.com/widget?id=330169444674306059&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
       <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
       </footer>
     </main>
   </body>
