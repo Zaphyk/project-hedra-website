@@ -91,6 +91,9 @@
   background-position: top;
   height: 1080px;
   background-size: cover;
+    -webkit-box-shadow: 0px 0px 41px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 41px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 41px rgba(0,0,0,0.75);
 }
 
 .link-container {
@@ -122,13 +125,22 @@
   font-weight: bold;
 }
 
-.steamBanner {
+.steamContainer {
   margin-top: 12em;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.icon {
+  width: 100px;
+}
+
+.steamBanner {
+    -webkit-box-shadow: 0px 0px 41px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 41px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 41px rgba(0,0,0,0.75);
+}
 
 .masthead h1 {
   font-family: 'Open Sans';
@@ -190,7 +202,7 @@
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 4rem;
   -webkit-box-shadow: 0px 0px 41px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 41px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 41px rgba(0,0,0,0.75);
@@ -198,7 +210,10 @@
 }
 
 .youtube-video {
-  margin-bottom: 8rem; 
+  margin-bottom: 4rem; 
+    -webkit-box-shadow: 0px 0px 41px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 41px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 41px rgba(0,0,0,0.75);
 }
 
 .main-desc {
@@ -220,7 +235,7 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 6rem 0;
 }
 
 .projects-section .featured-text {
@@ -291,7 +306,6 @@
 
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Varela Round';
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
@@ -308,12 +322,42 @@
 
 .contact-section .social a {
   text-align: center;
-  height: 3rem;
-  width: 3rem;
+  height: 8rem;
+  width: 5rem;
+  line-height: 5rem;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
-  line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.social-title-black {
+  color: rgba(40, 40, 40, 1.0);
+  text-align: center;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 2px black;
+  margin-bottom: 6rem;
+}
+
+.social-title {
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  text-shadow: 1px 1px 2px black;
+  margin-bottom: 6rem;
+}
+
+.social {
+  text-shadow: 1px 1px 2px black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6rem;
+}
+
+.icon {
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+  padding: 4rem;
 }
 
 .contact-section .social a:hover {
